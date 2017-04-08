@@ -1,0 +1,8 @@
+a = float(input()) h1 = 30 m1 = h1/60 s1 = m1/60 h = (a//h1) % 60 m = (a 
+// m1) % 60 s = (a // s1) % 60
+print(h,m,s)
+
+
+import math P = int(input()) X = int(input()) Y = int(input()) a = X * 
+100 + Y b = a + (a * P/100) print(b // 100)
+print(int(b % 100))

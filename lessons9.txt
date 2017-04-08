@@ -1,0 +1,24 @@
+size = int(input()) matrix = [[0] * size for i in range(size)] for i in 
+range(size):
+    matrix[i][size - i - 1] = 1 for i in range(size):
+    for j in range(size - i, size):
+        matrix[i][j] = 2 for row in matrix:
+    for element in row:
+        print(element, end=' ')
+print()
+
+
+def swap_columns(matrix, i, j):
+    for z in range (a):
+        buf=matrix[z][i]
+        matrix[z][i]=matrix[z][j]
+        matrix[z][j]=buf
+    return size = input().split() a=int(size[0]) b=int(size[1]) matrix = 
+[] for k in range(a):
+    row = input().split()
+    for k in range(len(row)):
+        row[k] = int(row[k])
+    matrix.append(row) size = input().split() i=int(size[0]) 
+j=int(size[1]) swap_columns(matrix, i, j) for i in range(a):
+    for j in range(b):
+        print(matrix[i][j], end=' ') print()

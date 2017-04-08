@@ -1,0 +1,11 @@
+n=int(input()) m=int(input()) k=int(input()) if k < n * m and ((k % n == 
+0) or (k % m == 0)):
+    print('YES') else:
+    print('NO')
+
+
+N = int(input()) M = int(input()) x = int(input()) y = int(input()) if N 
+< M:
+    N,M = M,N if x > M/2:
+    x = M - x if y > N/2:
+    y = N - y print(y if y < x else x)
